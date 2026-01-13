@@ -1,0 +1,27 @@
+
+> maria-amiouni-web@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Isiata\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Isiata\OneDrive\AreoClient\Maria Amiouni\maria-amiouni-web\package-lock.json
+
+▲ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.1s
+  Running TypeScript ...
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/30) ...
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Attempted to call useScrollReveal() from the server but useScrollReveal is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+    at <unknown> (C:\Users\Isiata\OneDrive\AreoClient\Maria Amiouni\maria-amiouni-web\.next\server\chunks\ssr\[root-of-the-server]__8e3bd682._.js:3:1618)
+    at n (C:\Users\Isiata\OneDrive\AreoClient\Maria Amiouni\maria-amiouni-web\.next\server\chunks\ssr\[root-of-the-server]__8e3bd682._.js:3:3011)
+    at stringify (<anonymous>) {
+  digest: '1183061835'
+}
+Export encountered an error on /_not-found/page: /_not-found, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null

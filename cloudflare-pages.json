@@ -1,0 +1,6 @@
+{
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "OneDrive/AreoClient/Maria Amiouni/maria-amiouni-web/out",
+  "rootDirectory": ".",
+  "framework": null
+}

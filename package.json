@@ -1,0 +1,9 @@
+{
+  "name": "maria-amiouni-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "echo 'Starting build...'",
+    "build": "bash build.sh"
+  }
+}
